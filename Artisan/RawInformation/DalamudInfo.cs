@@ -13,7 +13,7 @@ namespace Artisan.RawInformation
         public static bool IsOnStaging()
         {
 //#if DEBUG
-//            return false;
+            return false;
 //#endif
             if (StagingChecked)
             {
